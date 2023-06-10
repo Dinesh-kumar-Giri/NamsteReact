@@ -1,4 +1,7 @@
-const heading = React.createElement("h1", {}, "hello react giri🙋");
+import React from "react";
+import ReactDOM from "react-dom/client";
+const heading = React.createElement("h1", {}, "hello  giri🙋");
+
 console.log("heading", heading); // thiis is rerutn object not heading
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
