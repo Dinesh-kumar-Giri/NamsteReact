@@ -8,6 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
+    // react root or only inside the root
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.production.min.js"
@@ -16,10 +17,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
     ></script>
-    <script>
-      const heading = React.createElement("h1", {}, "hello react🙋");
-      const root = ReactDom.createRoot(document.getElementById("root"));
-      root.render(heading);
-    </script>
+    <script src="App.js"></script>
   </body>
 </html>
